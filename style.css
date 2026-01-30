@@ -50,24 +50,17 @@ button {
   position: absolute;
   width: 200px;
   height: 200px;
-
-  /* 🔴 PUT YOUR IMAGE LINK HERE 🔴 */
-  .front  { background-image: url("https://ibb.co/Zz1fRztQ"); }
-.back   { background-image: url("https://ibb.co/jkjCDqJr"); }
-.right  { background-image: url("https://ibb.co/Fq0hRq8p"); }
-.left   { background-image: url("https://ibb.co/BHPrcPW5"); }
-.top    { background-image: url("https://ibb.co/qLDbRS26"); }
-.bottom { background-image: url("https://ibb.co/fB8sVPg"); }
   background-size: cover;
   background-position: center;
 }
 
-.front  { transform: rotateY(  0deg) translateZ(100px); }
-.back   { transform: rotateY(180deg) translateZ(100px); }
-.right  { transform: rotateY( 90deg) translateZ(100px); }
-.left   { transform: rotateY(-90deg) translateZ(100px); }
-.top    { transform: rotateX( 90deg) translateZ(100px); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); }
+/* Each face has its own image */
+.front  { background-image: url("DIRECT_IMAGE_1.jpg"); transform: rotateY(0deg) translateZ(100px); }
+.back   { background-image: url("DIRECT_IMAGE_2.jpg"); transform: rotateY(180deg) translateZ(100px); }
+.right  { background-image: url("DIRECT_IMAGE_3.jpg"); transform: rotateY(90deg) translateZ(100px); }
+.left   { background-image: url("DIRECT_IMAGE_4.jpg"); transform: rotateY(-90deg) translateZ(100px); }
+.top    { background-image: url("DIRECT_IMAGE_5.jpg"); transform: rotateX(90deg) translateZ(100px); }
+.bottom { background-image: url("DIRECT_IMAGE_6.jpg"); transform: rotateX(-90deg) translateZ(100px); }
 
 @keyframes spin {
   from { transform: rotateX(0deg) rotateY(0deg); }
