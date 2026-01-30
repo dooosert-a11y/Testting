@@ -52,12 +52,12 @@ button {
   height: 200px;
 
   /* 🔴 PUT YOUR IMAGE LINK HERE 🔴 */
-  .front  { background-image: url("IMAGE_1_LINK"); }
-.back   { background-image: url("IMAGE_2_LINK"); }
-.right  { background-image: url("IMAGE_3_LINK"); }
-.left   { background-image: url("IMAGE_4_LINK"); }
-.top    { background-image: url("IMAGE_5_LINK"); }
-.bottom { background-image: url("IMAGE_6_LINK"); }
+  .front  { background-image: url("https://ibb.co/Zz1fRztQ"); }
+.back   { background-image: url("https://ibb.co/jkjCDqJr"); }
+.right  { background-image: url("https://ibb.co/Fq0hRq8p"); }
+.left   { background-image: url("https://ibb.co/BHPrcPW5"); }
+.top    { background-image: url("https://ibb.co/qLDbRS26"); }
+.bottom { background-image: url("https://ibb.co/fB8sVPg"); }
   background-size: cover;
   background-position: center;
 }
