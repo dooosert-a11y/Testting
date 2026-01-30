@@ -52,7 +52,12 @@ button {
   height: 200px;
 
   /* 🔴 PUT YOUR IMAGE LINK HERE 🔴 */
-  background-image: url("PASTE_IMAGE_LINK_HERE");
+  .front  { background-image: url("IMAGE_1_LINK"); }
+.back   { background-image: url("IMAGE_2_LINK"); }
+.right  { background-image: url("IMAGE_3_LINK"); }
+.left   { background-image: url("IMAGE_4_LINK"); }
+.top    { background-image: url("IMAGE_5_LINK"); }
+.bottom { background-image: url("IMAGE_6_LINK"); }
   background-size: cover;
   background-position: center;
 }
